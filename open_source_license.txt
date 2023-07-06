@@ -1,13 +1,20 @@
 open_source_licenses.txt
 
-Cloud Provider for Cloud Director 1.2 GA
+Kubernetes External Cloud Provider for VMware Cloud Director 1.4.0 GA
 ======================================================================
 
-cloud-provider-for-cloud-director version 1.2 includes a number of components with separate 
-copyright notices and license terms.  This product does not necessarily 
-use all the open source components referred to below. Your use of the 
-source code for these components is subject to the terms and conditions 
-of the following licenses.
+The following copyright statements and licenses apply to various open
+source software packages (or portions thereof) that are distributed with
+this VMware Product.
+
+The VMware Product may also include other VMware components, which may
+contain additional open source software packages. One or more such
+open_source_licenses.txt files may therefore accompany this VMware
+Product.
+
+The VMware Product that includes this file does not necessarily use all
+the open source software packages referred to below and may also only
+use portions of a given package.
 
 ==================== TABLE OF CONTENTS ====================
 
@@ -15,7 +22,6 @@ The following is a listing of the open source components detailed in
 this document. This list is provided for your convenience; please read
 further if you wish to review the copyright notice(s) and the full text
 of the license associated with each component.
-
 
 
 SECTION 1: Apache License, V2.0
@@ -35,17 +41,16 @@ SECTION 2: BSD-STYLE, MIT-STYLE, OR SIMILAR STYLE LICENSES
 
    >>> golang.org/x/oauth2-v0.0.0-20200107190931-bf48bf16ab8d
    >>> github.com/google/uuid-v1.1.2
+   >>> gopkg.in/yaml.v3-v3.0.0-20210107192922-496545a6307b
    >>> github.com/stretchr/testify-v1.7.0
    >>> github.com/peterhellberg/link-v1.1.0
    >>> github.com/apparentlymart/go-cidr-v1.1.0
    >>> optional -1.0.0
 
-   
 
 APPENDIX. Standard License Files
 
    >>> Apache License, V2.0
-
 
 
 -------------------- SECTION 1: Apache License, V2.0 --------------------
@@ -11034,6 +11039,10 @@ APPENDIX. Standard License Files
        Copyright 2016 Google Inc.
 
 
+   >>> gopkg.in/yaml.v3-v3.0.0-20210107192922-496545a6307b
+
+
+
    >>> github.com/stretchr/testify-v1.7.0
 
        Found in: LICENSE
@@ -11105,6 +11114,7 @@ APPENDIX. Standard License Files
 
    >>> optional -1.0.0
 
+       License- MIT
 
 
 ==================== APPENDIX. Standard License Files ====================
@@ -11369,15 +11379,21 @@ limitations under the License.
 
 
 ======================================================================
+
 To the extent any open source components are licensed under the GPL
 and/or LGPL, or other similar licenses that require the source code
-and/or modifications to source code to be made available, you may obtain
-a copy of the source code corresponding to the binaries for such open source
-components and modifications thereto, if any, (the "Source Files"), by downloading the
-Source Files from VMware's github site for this product, or by sending a request, with your name
-and address to: VMware, Inc., 3401 Hillview Avenue, Palo Alto, CA 94304, United States of America.
-All such requests should clearly specify: OPEN SOURCE FILES REQUEST, Attention General Counsel. VMware shall
-mail a copy of the Source Files to you on a CD or equivalent physical medium. This offer to obtain a copy of the Source
-Files is valid for three years from the date you acquired this software product.
+and/or modifications to source code to be made available (as would be
+noted above), you may obtain a copy of the source code corresponding to
+the binaries for such open source components and modifications thereto,
+if any, (the "Source Files"), by downloading the Source Files from
+VMware's website at http://www.vmware.com/download/open_source.html, or
+by sending a request, with your name and address to: VMware, Inc., 3401
+Hillview Avenue, Palo Alto, CA 94304, United States of America. All such
+requests should clearly specify: OPEN SOURCE FILES REQUEST, Attention
+General Counsel. VMware shall mail a copy of the Source Files to you on
+a CD or equivalent physical medium. This offer to obtain a copy of the
+Source Files is valid for three years from the date you acquired this
+Software product. Alternatively, the Source Files may accompany the
+VMware product.
 
-[CLOUDPROVIDERFORCLOUDDIRECTOR12GAAS100622]
+[CLOUDPROVIDERFORCLOUDDIRECTOR140GARS070623]
